@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -14,4 +15,21 @@
 
     <div class="container">
         <h1>Schach gegen den Computer (Zufall)</h1>
-        <div id="myBoard" style
+        <div id="myBoard" style="width: 400px"></div>
+        <div class="status-box">
+            <p>Status: <span id="status">Weiß ist am Zug</span></p>
+            <p>FEN: <span id="fen"></span></p>
+            <p>PGN: <span id="pgn"></span></p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"
+        integrity="sha384-8Vi8XRmehGv3KNZSkUH00GdcXPxYZwGZkUnyoFOhJNc8e63DCHtBqueX706nz8wl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js" integrity="sha384-s3XWxsBL7sJHUMVr50MwXyeE/S47rYhF7+4Wcyr0/N/a/2e4+75E9tVb4tq9qW8g" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
